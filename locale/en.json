@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Round notifications",
+    "description": "Sends a system notification when a round finishes while this window is in the background, automatic goal rounds included."
+  }
+}

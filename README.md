@@ -1,5 +1,7 @@
 # dsh-round-notify
 
+[![test](https://github.com/11ucas/dsh-round-notify/actions/workflows/test.yml/badge.svg)](https://github.com/11ucas/dsh-round-notify/actions/workflows/test.yml)
+
 给 [DeepSeek Harness](https://github.com/deepseek-ai) Web GUI 用的客户端插件：**每一轮结束后发一条系统通知**，只在窗口不在前台时发。
 
 A client-side plugin for the DeepSeek Harness Web GUI: **one system notification per finished round**, only while the window is in the background.

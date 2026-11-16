@@ -5,6 +5,14 @@
   "type": "module",
   "description": "System notifications after each completed round while the window is in the background.",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/11ucas/dsh-round-notify.git"
+  },
+  "homepage": "https://github.com/11ucas/dsh-round-notify#readme",
+  "bugs": {
+    "url": "https://github.com/11ucas/dsh-round-notify/issues"
+  },
   "keywords": [
     "dsh",
     "deepseek-harness",

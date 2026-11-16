@@ -1,5 +1,5 @@
 /**
- * Offline harness for @local/dsh-round-notify's Client half.
+ * Offline harness for dsh-round-notify's Client half.
  *
  * It stubs the browser globals and the Cordis Client context the plugin touches,
  * then drives Session-list snapshots through the plugin's watcher to prove the

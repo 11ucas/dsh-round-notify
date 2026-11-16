@@ -42,10 +42,10 @@ plugin_manager  action: install_bundle
 
 ```
 plugin_manager  action: remove_bundle
-                target: @local/dsh-round-notify
+                target: dsh-round-notify
 ```
 
-> `@local/` 前缀是本仓库作为"本地 bundle"的约定，`private: true` 也表明它不发布到 npm。若你想发布到 npm，需要改 `package.json` 的 `name`，并同步 `client.js` 里 `__ModuleLoader__.load({ id })` 与 `cordis.patch.yml` 的行名。
+> 包名 `dsh-round-notify` 与 `client.js` 里 `__ModuleLoader__.load({ id })`、`cordis.patch.yml` 的行名必须一致，Harness 按包名解析客户端模块。`package.json` 已去掉 `private`，要发布到 npm 直接 `npm publish` 即可。
 
 ## 启用与授权（重要）
 

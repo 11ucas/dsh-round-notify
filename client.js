@@ -11,7 +11,7 @@
  * because `Notification.requestPermission()` needs a user gesture.
  */
 window.__ModuleLoader__.load({
-  id: '@local/dsh-round-notify',
+  id: 'dsh-round-notify',
   factory(require) {
     const React = require('react');
     const h = React.createElement;
@@ -320,7 +320,7 @@ window.__ModuleLoader__.load({
 
         ctx.effect(() => {
           const tag = document.createElement('style');
-          tag.dataset.plugin = '@local/dsh-round-notify';
+          tag.dataset.plugin = 'dsh-round-notify';
           tag.textContent = CSS;
           document.head.appendChild(tag);
           return () => tag.remove();
